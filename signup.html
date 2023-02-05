@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Simple Login</title>
+</head>
+<body>
+    <h1>Welcome!</h1>
+    <form>
+        <table class ="center">
+            <tr>
+                <td><label for="">Username:</label></td>
+                <td><input type="username" placeholder = "Enter Username" id ="username"></td>
+            </tr>
+                <td><label for="">Password:</label></td>
+                <td><input type="password" placeholder = "Enter Password" id ="password"></td>
+            <tr>
+                <td><label for="">Email:</label></td>
+                <td><input type="email" placeholder = "Enter Email" id ="email"></td>
+            </tr>
+            <div id="msg">
+                <pre></pre>
+            </div>
+        </table>
+        <table class = "center">
+            <tr>
+                <td><button id = "signupBTN">Submit</button></td>
+            </tr>
+        </table>
+    </form>
+
+    <h1 id="message"></h1>
+    <hr>
+    <p>If you already have an account, click <em><a href="index.html">here</a></em> to login.</p>
+    <a href="page.html">page</a>
+
+    <script src="signup.js"></script>
+</body>
+</html>
